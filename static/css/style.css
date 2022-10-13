@@ -1,6 +1,9 @@
+ 
 html,
 body {
    height: fit-content;
+   background: azure;
+   
 }
 .content {
     max-width: 600px;
@@ -19,6 +22,8 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
 }
+
+ 
 .post_form textarea {
     width: 70%;
     padding: 10px;

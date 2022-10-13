@@ -9,10 +9,10 @@
     <section class="post_form">
         <form action="" method="POST"  enctype="multipart/form-data">
             {% csrf_token %}
-            <input style="background-color: #e6fef7;" type="text" name="name" placeholder="Your Name" required />
+            <input style="background-color: #e2f68b;" type="text" name="name" placeholder="Your Name" required />
             <textarea type="text" name="body" placeholder="What's happening?" required></textarea>
             <input type="file" name="image">
-            <input type="submit" name="" id="" value="Tweet" />
+            <input type="submit" name="" id="tweet" value="Tweet" style="background-color:#e2f68b ;" />
         </form>
     </section>
     <section class="posts">
